@@ -1,6 +1,8 @@
 "use client"
 import { useEffect, useState } from "react";
 import Login from "../Componentes/login";
+import Image360 from "../Componentes/image";
+
 
 const images = [
 "/c1.jpg",
@@ -17,15 +19,14 @@ export default function ViewLogin(){
     return () => clearInterval(interval);
 }, []);
     return(
+
         <div className="page">
+            
             <div className="left">
                 <Login/>
             </div> 
-            <div className="right"
-            style={{
-            backgroundImage: `url(${images[current]})`,
-            }}
-            >
+            <div className="right">
+                <Image360/>
             </div>
             </div>
         
