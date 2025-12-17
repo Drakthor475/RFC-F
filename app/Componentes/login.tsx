@@ -6,7 +6,7 @@ export default function Login(){
 
     return(
         <div className="contenedor">
-            <header className="title">Inicie Sesion</header>
+            <header className="title">REFACCIONES CONTINENTAL S.A DE C.V</header>
             <p className="subtitle">Usuario</p>
             <input className="imput " placeholder="Ingrese su correo "></input>
             <p className="subtitle">Contraseña</p>
