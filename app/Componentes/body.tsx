@@ -1,9 +1,10 @@
+import { text } from "stream/consumers";
+
 export default function BodyPage(){
-    interface gamecard{
-    
-    }
+   
     
     return(
+        <div>
         <section className="Games">
             <h2 className="title" >Favorite Games</h2>
             <hr className="separador"/>
@@ -35,7 +36,25 @@ export default function BodyPage(){
                     </div>
                 </div>
             </div>
+            
         </section>
+        <section className="clip-favorite">
+            <h2 className="title" >Character favorites</h2>
+            <hr className="separador"/>
+        |   <div id="card">
+                <div className="wrapper-card">
+                    <div className="box-area">
+                            <div className="box2">
+                            <video src={"./yuta.mp4"} about="Edit durisimo de yuta" autoPlay muted loop controls/>
+                    </div>
+                       <div className="box2">
+                            <video src={"./gj.mp4"} about="Edit durisimo de yuta" autoPlay muted loop controls/>
+                    </div>
+                    </div>
+                </div>
+        </div>
+        </section>
+        </div>
     );
 
 }

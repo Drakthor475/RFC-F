@@ -5,9 +5,11 @@ export default function Header(){
             <img src={"./icon.jpg"} alt="Imagen durisima de yuta okkotsu" className="icon-image"></img>
             
             </div>
+            <div className="user-info">
             <h3 className="name-user">Drakthor475</h3>
             <hr className="space"/>
             <p className="frase">"Throughout heaven and earth, I alone am the honored one"</p>
+            </div>
         </header>
     );
 }
